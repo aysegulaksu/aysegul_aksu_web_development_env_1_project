@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aysegul_aksu_web_development_env_1_project</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
                                              <!-- Header-->
@@ -14,7 +14,7 @@
         <div class="container">
             <div class="header-flex">
                 <div class="logo">
-					<a href="index.html">Aysegul Aksu</a>
+					<a href="index.php">Aysegul Aksu</a>
 				</div>
                 <div class="bar">
 					<i class="fa-solid fa-bars"></i>
@@ -33,10 +33,15 @@
      <!-- Banner-->
      <section class="banner">
         <div class="text-box">
-            <div id="date"><?php echo date('F j, Y'); ?></div>   
             <h2>We are almost there</h2>
             <div id="countdown"></div>
         </div> 
+    </section>
+    <section class="date">
+        <div class="container">
+            <h3>My first and last PHP code</h3>
+            <div id="date"><?php echo date('F j, Y'); ?></div> 
+        </div>
     </section>
                        <!-- One Column--> 
     <section class="php">
@@ -44,12 +49,16 @@
             <div class="php-flex">
                 <div class="left">
                     <h2>PHP: The Undying Legend</h2>
-                    <p>Apparently, this is the topic that keeps resurfacing as a headline once in a while, like a never-ending saga. It's like a fiery debate caught between the "punk is dead" and "Microsoft is dead" discussions. Frankly, I have absolutely no idea why PHP gets all this attention, probably because I'm blissfully unaware of its inner workings, except for the fact that it generously offers side effects like killer headaches and depression. The jury might still be out on whether PHP is dead, but personally, I would say, if it's not, let's make sure we put the final nail in the coffin.</p>
+                    <p>Apparently, this is the topic that keeps resurfacing as a headline once in a while, like a never-ending saga.</p>
+                    <p> It's like a fiery debate caught between the "punk is dead" and "Microsoft is dead" discussions. </p>
+                    <p>Frankly, I have absolutely no idea why PHP gets all this attention, probably because I'm blissfully unaware of its inner workings, except for the fact that it generously offers side effects like killer headaches and depression. </p>
                 </div>
                 <div class="right"> </div>
             </div>  
+            <p span class="bold-statement">  The jury might still be out on whether PHP is dead, but personally, I would say, if it's not, let's make sure we put the final nail in the coffin.</p>
         </div>
     </section>
+ 
       <!-- Portfolio--> 
     <section class="portfolio">
         <div class="container">
@@ -76,8 +85,8 @@
                 <div class="about-flex">
                     <div class="left">
                         <h2>Well what to say</h2>
-                        <p>Oh, where do I even begin with myself? I'm just a mind-blowingly average individual, blessed with an uncanny ability to blend seamlessly into the crowd and go completely unnoticed. </p>
-                        <a href="#" class="btn">If you must!</a>
+                        <p>Oh, where do I even begin with myself? I'm just a mind-bendingly average individual, blessed with an uncanny ability to blend seamlessly into the crowd and go completely unnoticed. </p>
+                        <a href="about.php" class="btn">If you must!</a>
                     </div>
                     <div class="right"></div>
                 </div>
@@ -91,8 +100,7 @@
         <div class="container">
             <div class="footer-flex">
                 <div class="text">
-                    <h2>Contact Info</h2>
-                    <h3>Adress:PO 7254934, Alt. Universe 766</h3>
+                    <h3>© All rights not reserved.</h3>                
                 </div> 
             </div>
         </div>        
@@ -111,6 +119,6 @@
 		    }
 		});
 	</script>
-    <script src="script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
